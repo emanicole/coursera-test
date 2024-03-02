@@ -1,0 +1,145 @@
+.menu {
+    margin-left: 100px;
+    margin-top: 20px;
+    color:dimgrey;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.menu:hover {
+    color:black;
+    font-weight: 1000;
+}
+
+.title {
+    margin-left: 350px;
+    width: 800px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-top: 100px;
+    display: block;
+    background: linear-gradient(180deg, #48362e, #816559);
+    -webkit-background-clip: text; color: transparent;
+}
+
+.under_title {
+    color:brown;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.first {
+    margin-left: 350px;
+}
+
+.image {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.descript {
+    width: 500px;
+    display: block;
+    margin: 50px auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#715e56;
+    font-size: 15px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color:palegoldenrod;
+}
+
+.subscribe {
+    padding: 10px;
+    background-color:#eafad8;
+}
+
+.subscribe input {
+    width: 200px;
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: #b7c9a1;
+}
+
+.subscribe button {
+    background-color:#fae5ce;
+    border-color:#F1D6B8;
+    padding: 5px 10px;
+    color:#cc985e;
+    font-weight: bold;
+}
+
+.review {
+    margin-top: 50px;
+    border: 1px solid rgb(59, 59, 59);
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(180deg, #6c5951, #ab8f84);
+    -webkit-background-clip: text; color: transparent;
+    font-size: 15px;
+}
+
+.rating {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.star {
+    color:darkorange;
+}
+
+.date, input[type="text"], select, textarea {
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    color: black;
+}
+
+option {
+        color: black;
+}
+
+.exceptie {
+    color: gray;
+}
+
+.superlative {
+    color:darkgoldenrod;
+    font-weight:1000;
+}
+
+.trimite {
+    padding: 10px;
+    background-color:blanchedalmond;
+    border: 2px solid sandybrown;
+    color: peru;
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    font-weight: bold;
+    font-size: 13px;
+}
+
+body {
+    background-color: #f4e9df;
+}
+
+label {
+    color: #6c5951;
+}
+
+input[type="text"], option, textarea{
+    background-color: #fffbf7;
+}
+
